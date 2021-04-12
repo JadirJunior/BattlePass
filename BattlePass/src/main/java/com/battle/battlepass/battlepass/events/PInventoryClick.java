@@ -19,6 +19,9 @@ public class PInventoryClick implements Listener {
         if (BattlePass.inventories.get(e.getInventory().getName()) != null) {
             e.setCancelled(true);
             Player player = (Player) e.getWhoClicked();
+            if (e.getCurrentItem().getTypeId() == 0) {
+                return;
+            }
             String itemName = e.getCurrentItem().getItemMeta().getDisplayName();
             if (BattlePass.itemsActions.containsKey(itemName)) {
                 String target = BattlePass.itemsActions.get(itemName).getTarget();
