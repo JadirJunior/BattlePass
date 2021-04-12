@@ -1,0 +1,17 @@
+com\battle\battlepass\battlepass\commands\BPCommand.class
+com\battle\battlepass\battlepass\config\ConfigMenus.class
+com\battle\battlepass\battlepass\enums\MissionType.class
+com\battle\battlepass\battlepass\references\PlayerModel.class
+com\battle\battlepass\battlepass\config\ConfigPlayers.class
+com\battle\battlepass\battlepass\utils\ItemBuilder.class
+com\battle\battlepass\battlepass\references\Config.class
+com\battle\battlepass\battlepass\utils\Utils.class
+com\battle\battlepass\battlepass\events\PJoinEvent.class
+com\battle\battlepass\battlepass\BattlePass.class
+com\battle\battlepass\battlepass\references\Mission.class
+com\battle\battlepass\battlepass\events\PInventoryClick.class
+com\battle\battlepass\battlepass\utils\InventoryBuilder.class
+com\battle\battlepass\battlepass\manager\CommandManager.class
+com\battle\battlepass\battlepass\references\CommandBase.class
+com\battle\battlepass\battlepass\config\TierConfig.class
+com\battle\battlepass\battlepass\references\Tier.class
