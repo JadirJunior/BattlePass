@@ -14,7 +14,7 @@ public class BPCommand implements CommandBase {
     @Override
     public void execute(CommandSender sender, Command command, String[] args) {
         if (sender instanceof Player) {
-            Player player =(Player) sender;
+            Player player = (Player) sender;
             player.openInventory(BattlePass.inventories.get("BattlePass").getInventory());
         }
     }

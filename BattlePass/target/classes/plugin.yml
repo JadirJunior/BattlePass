@@ -4,3 +4,5 @@ main: com.battle.battlepass.battlepass.BattlePass
 commands:
   bp:
     description: Comando do passe de batalha
+  cq:
+    description: Create Quest!
