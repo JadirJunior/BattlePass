@@ -2,6 +2,7 @@ package com.battle.battlepass.battlepass.manager;
 
 import com.battle.battlepass.battlepass.BattlePass;
 import com.battle.battlepass.battlepass.commands.BPCommand;
+import com.battle.battlepass.battlepass.commands.StartQuestCommand;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -15,8 +16,9 @@ public class CommandManager implements CommandExecutor {
             if (args.length == 0) {
                 new BPCommand().execute(sender, command, args);
             }
+        } else if (command.getName().equalsIgnoreCase("startquest")) {
+            new StartQuestCommand().execute(sender, command, args);
         }
-
 
         return false;
     }

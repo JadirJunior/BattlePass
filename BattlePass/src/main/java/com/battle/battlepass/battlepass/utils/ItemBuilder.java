@@ -22,6 +22,10 @@ public class ItemBuilder {
         item.setItemMeta(meta);
     }
 
+    public ItemBuilder(int id, int data) {
+        item = new ItemStack(id, 1, damage, (byte) data);
+    }
+
     public ItemBuilder(String displayName, int id, int data, String targetInv) {
         item = new ItemStack(id, 1, damage, (byte) data);
         meta = item.getItemMeta();

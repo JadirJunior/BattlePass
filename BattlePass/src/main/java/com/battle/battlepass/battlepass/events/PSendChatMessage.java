@@ -69,12 +69,6 @@ public class PSendChatMessage implements Listener {
         }
 
 
-        if (BattlePass.hasOnBlockQuest.contains(player)) {
-
-
-
-            BattlePass.hasOnBlockQuest.remove(player);
-        }
 
 
 

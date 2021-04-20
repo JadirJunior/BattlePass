@@ -67,12 +67,6 @@ public class CreateQuestManager extends Mission {
 
         InventoryBuilder inv = new InventoryBuilder(9*3, "CreateQuest");
 
-        if (BattlePass.killTarget.containsKey(player)) {
-            createItem(inv, Material.STONE, 11, 1 , "Type Quest", Arrays.asList("Quest Type: Kill", "\nCurrent Mob: " + BattlePass.killTarget.get(player)));
-        } else {
-            createItem(inv, Material.STONE, 11, 1 , "Type Quest", null);
-        }
-
 
         if (BattlePass.quest.questName != null) {
             createItem(inv, Material.BOOK, 13, 1 ,"Quest Name", Collections.singletonList("Quest Name: " + BattlePass.quest.questName));

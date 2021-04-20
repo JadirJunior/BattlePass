@@ -6,3 +6,6 @@ commands:
     description: Comando do passe de batalha
   cq:
     description: Create Quest!
+  startquest:
+    description: Inicie uma quest
+    permission: startquest.use

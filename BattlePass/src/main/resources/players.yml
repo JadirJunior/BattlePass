@@ -1,5 +1,13 @@
 players:
   a9427d1c-3edf-44f9-8df1-c973b96988d2:
     exp: 0
-    tier: a
-    missions: []
+    tier: '1'
+    active_missions:
+      season:
+        - '1'
+      daily: []
+    completed_missions:
+      daily:
+        - '2'
+      season:
+        - '2'

@@ -19,16 +19,21 @@ public class PInventoryClick implements Listener {
     public void InventoryClick(InventoryClickEvent e) {
         if (BattlePass.inventories.get(e.getInventory().getName()) != null) {
             e.setCancelled(true);
+
             Player player = (Player) e.getWhoClicked();
+
             if (e.getCurrentItem().getTypeId() == 0) {
                 return;
             }
+
             String itemName = e.getCurrentItem().getItemMeta().getDisplayName();
             if (BattlePass.itemsActions.containsKey(itemName)) {
                 String target = BattlePass.itemsActions.get(itemName).getTarget();
+
                 if (target.equalsIgnoreCase("")) {
                     return;
                 }
+
                 if (target.equalsIgnoreCase("tier")) {
                     BattlePass.inventories.get(target).getInventory().forEach(item -> {
                         if (item == null) return;
@@ -61,7 +66,7 @@ public class PInventoryClick implements Listener {
             }
         }
 
-        if (e.getInventory().getName().equals("CreateQuest")) {
+        /*if (e.getInventory().getName().equals("CreateQuest")) {
             e.setCancelled(true);
 
             Player player = (Player) e.getWhoClicked();
@@ -159,6 +164,6 @@ public class PInventoryClick implements Listener {
                     break;
 
             }
-        }
+        }*/
     }
 }
