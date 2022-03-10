@@ -1,0 +1,62 @@
+menus:
+  BattlePass:
+    status:
+      head: true
+      headPlayer: jaguarjunior
+      target: ''
+      slot: 10
+      name: '&5&lSeus Status'
+      item:
+        id: 266
+        data: 0
+        lore:
+          - Bem vindo, {player}
+          - '&b&lSeason {season}'
+          - '&f&lEstatisticas'
+          - '&8Tier {tierPlayer}'
+          - '&8Experiencia {expPlayer}/{NextExp}'
+    tiers:
+      head: false
+      headPlayer: jaguarjunior
+      target: Tier
+      slot: 22
+      name: '&5&lTiers'
+      item:
+        id: 266
+        data: 0
+        lore:
+          - '&b&lAqui voce ve os Tiers'
+    missoes:
+      head: true
+      headPlayer: jaguarjunior
+      target: Missions
+      slot: 13
+      name: '&emissoes'
+      item:
+        id: 322
+        data: 1
+        lore:
+          - '&4Aqui voce ve suas missoes'
+  Missions:
+    diarias:
+      head: true
+      headPlayer: jaguarjunior
+      target: daily-missions
+      slot: 12
+      name: "&emissoes di\xc3\xa1rias"
+      item:
+        id: 322
+        data: 1
+        lore:
+          - "&4Aqui voce pode ver as miss\xc3\xb5es di\xc3\xa1rias"
+    mensais:
+      head: true
+      headPlayer: jaguarjunior
+      target: season-missions
+      slot: 14
+      name: '&emissoes da temporada'
+      item:
+        id: 145
+        data: 0
+        lore:
+          - '&4Aqui voce pode ver as missoes da temporada'

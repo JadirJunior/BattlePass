@@ -1,0 +1,12 @@
+name: BattlePass
+version: ${project.version}
+main: com.battle.battlepass.battlepass.BattlePass
+commands:
+  bpadmin:
+    description: Comando para administradores
+    permission: bpadmin.use
+  bp:
+    description: Comando do passe de batalha
+  startquest:
+    description: Inicie uma quest
+    permission: startquest.use

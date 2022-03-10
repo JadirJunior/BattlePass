@@ -1,0 +1,92 @@
+##missions:
+##  id:
+##    name: 'test Name'
+##
+## TYPES MISSIONS:
+## KILL -> kill
+## PLACE BLOCKS -> place
+## BREAK BLOCKS -> break
+## SEND CHAT MESSAGE -> chat
+## PEGAR PEIXE -> fish
+## CONSUMIR UM ITEM -> consume
+## CAMINHAR UMA CERTA DISTÂNCIA -> walk
+## PEGAR LEITE DE VACA -> milk
+## PEGAR EXPERIÊNCIA -> exp
+## CRAFTAR ITEM -> craft
+
+
+missions:
+  '1':
+    description:
+      - Mate 3 Creepers
+    name: Matar Creepers
+    type: kill
+    entities: 3
+    name_entity: Creeper
+    exp: 100
+  '2':
+    description:
+      - "Coloque 10 blocos de pedra no ch\xc3\xa3o."
+      - Coloque Blocos no chao
+    name: Teste2
+    type: place
+    blocks: 10
+    exp: 100
+    block:
+      id: 1
+      data: 0
+  '3':
+    description:
+      - Escreva Josias no chat.
+    name: Escrever Josias
+    type: chat
+    message: Josias
+    exp: 200
+  '4':
+    description:
+      - 'Pegue um fish'
+    name: Pega Fish
+    type: fish
+    exp: 500
+    fishes: 1
+  '5':
+    description:
+      - 'Come Maca'
+    name: Come Maca
+    type: consume
+    exp: 500
+    quant: 4
+    item:
+      id: 260
+      data: 0
+  '6':
+    description:
+      - Ande 50 metros
+    name: Andar 50 metros
+    type: walk
+    distance: 50
+    exp: 100
+  '7':
+    description:
+      - Tire Leite de vaca 5 vezes
+    name: Tirar leite
+    type: milk
+    times: 5
+    exp: 100
+  '8':
+    description:
+      - Colete 500 de XP
+    name: Coletar XP
+    type: exp
+    value: 500
+    exp: 100
+  '9':
+    description:
+      - Crafite uma espada de madeira
+    name: Pegar espada de madeira
+    type: craft
+    item:
+      id: 1
+      data: 0
+    exp: 100
+

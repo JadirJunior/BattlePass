@@ -1,0 +1,77 @@
+tier:
+  '1':
+    isPremium: true
+    exp: 100
+    name: Tier 1
+    recompensas:
+      useCommands: false
+      commands:
+        - adsajndajndsaas
+      useItem: false
+      item:
+        amount: 30
+        name: slaaaa
+        id: 1
+        data: 0
+        lore:
+          - aaaa
+  '2':
+    exp: 500
+    name: Tier 2
+    recompensas:
+      useCommands: false
+      commands:
+        - adsajndajndsaas
+      useItem: false
+      item:
+        amount: 30
+        name: slaaaa
+        id: 1
+        data: 0
+        lore:
+          - aaaa
+  '3':
+    exp: 1000
+    name: Tier 3
+    recompensas:
+      useCommands: false
+      commands:
+        - adsajndajndsaas
+      useItem: false
+      item:
+        amount: 30
+        name: slaaaa
+        id: 1
+        data: 0
+        lore:
+          - aaaa
+  '4':
+    exp: 2000
+    name: Tier 4
+    recompensas:
+      useCommands: false
+      commands:
+        - adsajndajndsaas
+      useItem: false
+      item:
+        amount: 30
+        name: slaaaa
+        id: 1
+        data: 0
+        lore:
+          - aaaa
+  '5':
+    exp: 10000
+    name: Tier 5
+    recompensas:
+      useCommands: false
+      commands:
+        - adsajndajndsaas
+      useItem: false
+      item:
+        amount: 30
+        name: slaaaa
+        id: 1
+        data: 0
+        lore:
+          - aaaa

@@ -1,0 +1,13 @@
+last_update: '25/4/2021'
+page_items:
+  previous_page: 39
+  page: 40
+  next_page: 41
+auto_save: true
+temp_auto_save: 3600 #em Segundos.
+my-sql: false
+host: 'localhost'
+port: '3502'
+username: 'sa'
+password: 'sa'
+database: 'battlepassdb'

@@ -1,0 +1,123 @@
+##missions:
+##  id:
+##    name: 'test Name'
+##
+## TYPES MISSIONS:
+## KILL -> kill
+## PLACE BLOCKS -> place
+## BREAK BLOCKS -> break
+
+season: 1
+start: '5/5/2021'
+duration: 3
+update: false
+
+
+seasons:
+  '2':
+    missions:
+      '4':
+        description:
+          - Quebre 10 blocos de Pedra!
+        name: batata
+        isPremium: true
+        type: break
+        blocks: 10
+        exp: 100
+        block:
+          id: 1
+          data: 0
+      '5':
+        description: Coloque 10 blocos de Pedra!
+        name: Josue
+        isPremium: true
+        type: place
+        blocks: 10
+        exp: 100
+        block:
+          id: 0
+          data: 1
+      '6':
+        description: Mate 10 Creepers!
+        name: alow
+        isPremium: true
+        type: kill
+        exp: 100
+        name_entity: Creeper
+        entities: 10
+      '20':
+        description:
+          - 'Pegue um fish'
+        name: Pega Fish
+        type: fish
+        exp: 500
+        fishes: 1
+      '10':
+        description:
+          - 'Come Maca'
+        name: Come Maca
+        type: consume
+        exp: 500
+        quant: 4
+        item:
+          id: 260
+          data: 0
+  '1':
+    missions:
+      '11':
+        description:
+          - Tire Leite de vaca 5 vezes
+        name: Tirar leite
+        type: milk
+        times: 5
+        exp: 100
+      '15':
+        description:
+          - Ande 50 metros
+        name: Andar 50 metros
+        type: walk
+        distance: 50
+        exp: 100
+      '25':
+        description:
+          - Mate 2 Creepers
+        name: Matar outro Creeper
+        type: kill
+        exp: 100
+        name_entity: Creeper
+        entities: 2
+      '8':
+        description:
+          - Quebre 10 Pedras
+        name: Quebrar pedras
+        type: break
+        blocks: 10
+        exp: 100
+        block:
+          id: 1
+          data: 0
+      '9':
+        description:
+          - Coloque 10 blocos de Pedra
+        name: Teste
+        type: place
+        exp: 100
+        blocks: 10
+        block:
+          id: 1
+          data: 0
+      '10':
+        description:
+          - Mate 8 Creepers
+        name: Teste2
+        type: kill
+        exp: 100
+        name_entity: Creeper
+        entities: 8
+      '26':
+        description:
+          - Colete 500 de XP
+        name: Coletar XP
+        type: exp
+        value: 500
+        exp: 100
